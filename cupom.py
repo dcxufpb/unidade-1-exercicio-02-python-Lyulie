@@ -12,5 +12,13 @@ cnpj = "42.591.651/0797-34"
 inscricao_estadual = "244.898.500.113"
 
 def imprime_dados_loja():
-    # Implemente aqui
-    return "" 
+  saida = f"{nome_loja}\n"
+  saida += f"{logradouro}, {numero} {complemento}\n"
+  saida += f"{bairro} - {municipio} - {estado}\n"
+  saida += f"CEP:{cep} Tel {telefone}\n"
+  saida += f"{observacao}\n"
+  saida += f"CNPJ: {cnpj}\n"
+  saida += f"IE: {inscricao_estadual}\n"
+  return saida
+
+  
